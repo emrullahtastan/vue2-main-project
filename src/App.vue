@@ -1,13 +1,17 @@
 <template>
   <div id="app">
     Vue2 Main Project
+    <Input/>
   </div>
 </template>
 
 <script>
 
+import Input from "@/components/Input.vue";
+
 export default {
-  name: 'App'
+  name: 'App',
+  components: {Input}
 }
 </script>
 

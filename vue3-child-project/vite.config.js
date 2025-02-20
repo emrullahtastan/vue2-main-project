@@ -1,9 +1,12 @@
-// vite.config.js
-import { defineConfig } from 'vite'
-import { createVuePlugin } from 'vite-plugin-vue2'
+import { defineConfig } from 'vite';
+import vue from '@vitejs/plugin-vue2'; // Vue 2 için plugin
+import { resolve } from 'path'; // Path modülünü içe aktar
 
 export default defineConfig({
-    plugins: [
-        createVuePlugin(),
-    ],
-})
+    plugins: [vue()],
+    resolve: {
+        alias: {
+            '@': resolve(__dirname, 'src'), // src klasörünü alias olarak tanımlama
+        }
+    }
+});
