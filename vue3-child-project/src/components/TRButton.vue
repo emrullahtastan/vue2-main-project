@@ -6,7 +6,7 @@
 
 <script>
 export default {
-  name: "TButton",
+  name: "TRButton",
   props: {
     title: {
       type: String,

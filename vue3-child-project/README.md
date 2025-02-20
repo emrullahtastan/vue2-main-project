@@ -1,4 +1,4 @@
-# vue3-child-project
+# vue3-child-app
 
 ## Project setup
 ```

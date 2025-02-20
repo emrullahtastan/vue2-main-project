@@ -3,18 +3,18 @@
     Vue3 Child Project
     <ul>
       <li>
-        <TButton title="Primary"/>
+        <TRButton title="Primary"/>
       </li>
     </ul>
   </div>
 </template>
 
 <script>
-import TButton from "@/components/Button.vue";
+import TRButton from "@/components/TRButton.vue";
 
 export default {
   name: 'App',
-  components: {TButton}
+  components: {TRButton}
 }
 </script>
 
