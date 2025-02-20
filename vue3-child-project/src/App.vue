@@ -4,6 +4,7 @@
     <ul>
       <li>
         <TRButton title="Primary"/>
+        <TRHTMLEditor/>
       </li>
     </ul>
   </div>
@@ -11,10 +12,11 @@
 
 <script>
 import TRButton from "@/components/TRButton.vue";
+import TRHTMLEditor from "@/components/TRHTMLEditor.vue";
 
 export default {
   name: 'App',
-  components: {TRButton}
+  components: {TRHTMLEditor, TRButton}
 }
 </script>
 
